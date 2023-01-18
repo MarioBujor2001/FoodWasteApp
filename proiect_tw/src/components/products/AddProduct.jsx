@@ -75,6 +75,7 @@ const AddProduct = () => {
             <option value="Carne" >Carne</option>
             <option value="Fructe">Fructe</option>
             <option value="Legume">Legume</option>
+            <option value="Lactate">Lactate</option>
           </select>
         </div>
         <br></br>

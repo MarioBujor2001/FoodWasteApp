@@ -67,6 +67,7 @@ const LeftMenu = (props) => {
                 <button className="button-35" onClick={() => { props.setFilter('Carne') }} style={{ backgroundColor: props.filter === 'Carne' ? '#bff7ab' : '#ffffff' }}>Carne</button>
                 <button className="button-35" onClick={() => { props.setFilter('Fructe') }} style={{ backgroundColor: props.filter === 'Fructe' ? '#bff7ab' : '#ffffff' }}>Fructe</button>
                 <button className="button-35" onClick={() => { props.setFilter('Legume') }} style={{ backgroundColor: props.filter === 'Legume' ? '#bff7ab' : '#ffffff' }}>Legume</button>
+                <button className="button-35" onClick={() => { props.setFilter('Lactate') }} style={{ backgroundColor: props.filter === 'Legume' ? '#bff7ab' : '#ffffff' }}>Lactate</button>
                 <p>Filtreaza disponibilitatea</p>
                 <button className="button-35" onClick={() => { props.setAvailableFilter('none') }} style={{ backgroundColor: '#999999' }}>Reset Filter</button>
                 <button className="button-35" onClick={() => { props.setAvailableFilter('available') }} style={{ backgroundColor: props.availableFilter === 'available' ? '#bff7ab' : '#ffffff' }}>Disponibile</button>
